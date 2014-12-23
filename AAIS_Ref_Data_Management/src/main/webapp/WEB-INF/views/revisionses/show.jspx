@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show create="false" delete="false" id="ps_com_draka_hardi_domain_Revisions" object="${revisions}" path="/revisionses" update="false" z="BhT9rTRK2w/EGlUD9Ej6YzqrFh0=">
+        <field:display field="timestamp" id="s_com_draka_hardi_domain_Revisions_timestamp" object="${revisions}" z="fjswBvjkaXl2tRtLTSxc2p0ggPs="/>
+        <field:display field="username" id="s_com_draka_hardi_domain_Revisions_username" object="${revisions}" z="F0kfJEV08rMLfYTZleiB8OOch0M="/>
+    </page:show>
+</div>

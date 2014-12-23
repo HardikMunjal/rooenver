@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_draka_hardi_domain_PolicyType" items="${policytypes}" z="O13XXOTBmy+iY/mVlplEiGrfnEM=">
+        <table:table data="${policytypes}" id="l_com_draka_hardi_domain_PolicyType" path="/policytypes" typeIdFieldName="ptcId" z="KX0cJ6oDlLzlR/F20NocYA4Cij0=">
+            <table:column id="c_com_draka_hardi_domain_PolicyType_policyTypeCode" property="policyTypeCode" z="jLAK/lSs8hxvfXqc1kNq1Ul3Pg8="/>
+            <table:column id="c_com_draka_hardi_domain_PolicyType_policyDescription" property="policyDescription" z="FHH5cHeVr/R1YIE48dacgl3iAYI="/>
+        </table:table>
+    </page:list>
+</div>

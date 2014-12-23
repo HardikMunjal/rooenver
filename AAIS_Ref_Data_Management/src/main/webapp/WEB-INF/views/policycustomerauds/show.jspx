@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show create="false" delete="false" id="ps_com_draka_hardi_domain_PolicyCustomerAud" object="${policycustomeraud}" path="/policycustomerauds" update="false" z="rDx/8Lu4gA6A77nvPKGv8ze+MDg=">
+        <field:display field="rev" id="s_com_draka_hardi_domain_PolicyCustomerAud_rev" object="${policycustomeraud}" z="boD29tdaSBRYDiSOvzY9SScOLNs="/>
+        <field:display field="revtype" id="s_com_draka_hardi_domain_PolicyCustomerAud_revtype" object="${policycustomeraud}" z="Z9Msad0CvEr6FFPqbj4V8oNrHlM="/>
+        <field:display date="true" dateTimePattern="${policyCustomerAud_enddate_date_format}" field="endDate" id="s_com_draka_hardi_domain_PolicyCustomerAud_endDate" object="${policycustomeraud}" z="zhPW639IEIeu5CIq16o2NmKcr2Y="/>
+        <field:display field="otherDescription" id="s_com_draka_hardi_domain_PolicyCustomerAud_otherDescription" object="${policycustomeraud}" z="1WgBL3q4vBWMOBTCb7HBaKa0v18="/>
+        <field:display date="true" dateTimePattern="${policyCustomerAud_startdate_date_format}" field="startDate" id="s_com_draka_hardi_domain_PolicyCustomerAud_startDate" object="${policycustomeraud}" z="yMbUE5yGzzFyqO4/mVpVZiXZN2c="/>
+        <field:display field="customerName" id="s_com_draka_hardi_domain_PolicyCustomerAud_customerName" object="${policycustomeraud}" z="0+PxBR+V4bMk+Z8Oqwd2lxKhjE8="/>
+        <field:display field="policyTypeCode" id="s_com_draka_hardi_domain_PolicyCustomerAud_policyTypeCode" object="${policycustomeraud}" z="vJJXfclORV0JFigtTU3nRLUd5CQ="/>
+    </page:show>
+</div>

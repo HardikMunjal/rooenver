@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_draka_hardi_domain_PolicyCustomerAud" items="${policycustomerauds}" z="wc4Tlo+gPU0ZpCRctMFVOZPDlQc=">
+        <table:table data="${policycustomerauds}" delete="false" id="l_com_draka_hardi_domain_PolicyCustomerAud" path="/policycustomerauds" update="false" z="Eznn6cVCZ2edawUHqzbZ9PchEEA=">
+            <table:column id="c_com_draka_hardi_domain_PolicyCustomerAud_rev" property="rev" z="Xf5cGIaYSoGQR1y2Bj9Hz2L9Djw="/>
+            <table:column id="c_com_draka_hardi_domain_PolicyCustomerAud_revtype" property="revtype" z="KQZ1cvypIQOPLgDs/ka7t5kXS14="/>
+            <table:column date="true" dateTimePattern="${policyCustomerAud_enddate_date_format}" id="c_com_draka_hardi_domain_PolicyCustomerAud_endDate" property="endDate" z="VmQ8oBDrGEmAdXkNYf9fgekp8Fc="/>
+            <table:column id="c_com_draka_hardi_domain_PolicyCustomerAud_otherDescription" property="otherDescription" z="dFCkH0J9r+QanBvGrUK36bV8QJM="/>
+            <table:column date="true" dateTimePattern="${policyCustomerAud_startdate_date_format}" id="c_com_draka_hardi_domain_PolicyCustomerAud_startDate" property="startDate" z="OK3I4JOGOFwTbdCfYr6nanQ/TlY="/>
+            <table:column id="c_com_draka_hardi_domain_PolicyCustomerAud_customerName" property="customerName" z="io8B8T82cy3ASa8BmRrNE+t87RM="/>
+        </table:table>
+    </page:list>
+</div>

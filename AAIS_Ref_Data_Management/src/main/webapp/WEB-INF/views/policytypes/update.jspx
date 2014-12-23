@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_draka_hardi_domain_PolicyType" idField="ptcId" modelAttribute="policyType" path="/policytypes" versionField="none" z="00/PcljpZA8XbRuiilZh4oPUPRE=">
+        <field:simple field="policyCustomers" id="c_com_draka_hardi_domain_PolicyType_policyCustomers" messageCode="entity_reference_not_managed" messageCodeAttribute="Policy Customer" z="eQhBIr9Fa7H66oLmbecd9siLkTA="/>
+        <field:input field="policyTypeCode" id="c_com_draka_hardi_domain_PolicyType_policyTypeCode" required="true" z="bMczmYA27jPwTTlBH+f1imcwA0E="/>
+        <field:input field="policyDescription" id="c_com_draka_hardi_domain_PolicyType_policyDescription" required="true" z="8dyf2zevDqYo1ij6qzMZ323PJHA="/>
+    </form:update>
+</div>

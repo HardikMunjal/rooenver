@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_draka_hardi_domain_PolicyClaim" items="${policyclaims}" z="kQWMdmuQmYLJnKbLkgk15CBd/XY=">
+        <table:table data="${policyclaims}" id="l_com_draka_hardi_domain_PolicyClaim" path="/policyclaims" typeIdFieldName="pcId" z="pJJ1PHgIBchlFYasOV16XcAqGsY=">
+            <table:column id="c_com_draka_hardi_domain_PolicyClaim_policyId" property="policyId" z="XIZT8LJMElzVEFxGP18rIMfXv7g="/>
+            <table:column id="c_com_draka_hardi_domain_PolicyClaim_claimDescription" property="claimDescription" z="LKjj5ORUiAnEgIUCRzIxli5JMKI="/>
+        </table:table>
+    </page:list>
+</div>

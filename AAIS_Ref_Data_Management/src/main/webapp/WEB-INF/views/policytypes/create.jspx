@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_draka_hardi_domain_PolicyType" modelAttribute="policyType" path="/policytypes" render="${empty dependencies}" z="2u0Aj9twY4eREO7M2y6TkO6zXTo=">
+        <field:simple field="policyCustomers" id="c_com_draka_hardi_domain_PolicyType_policyCustomers" messageCode="entity_reference_not_managed" messageCodeAttribute="Policy Customer" z="eQhBIr9Fa7H66oLmbecd9siLkTA="/>
+        <field:input field="policyTypeCode" id="c_com_draka_hardi_domain_PolicyType_policyTypeCode" required="true" z="bMczmYA27jPwTTlBH+f1imcwA0E="/>
+        <field:input field="policyDescription" id="c_com_draka_hardi_domain_PolicyType_policyDescription" required="true" z="8dyf2zevDqYo1ij6qzMZ323PJHA="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_draka_hardi_domain_PolicyType" render="${not empty dependencies}" z="24kKjQ/REObejXbp7Sq/gfIbYZs="/>
+</div>

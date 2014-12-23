@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_draka_hardi_domain_Customer" object="${customer}" path="/customers" z="4O9pNkR1dDqJ/J+UQqTDEocEYvc=">
+        <field:display field="customerName" id="s_com_draka_hardi_domain_Customer_customerName" object="${customer}" z="V9ZQZAPkk48CrjatwMrhFMhYYM4="/>
+        <field:display field="customerAddress" id="s_com_draka_hardi_domain_Customer_customerAddress" object="${customer}" z="EYBgP7i0Vo/wfBCMDCrl7ZD3S7g="/>
+        <field:display date="true" dateTimePattern="${customer_customerbirthdate_date_format}" field="customerBirthDate" id="s_com_draka_hardi_domain_Customer_customerBirthDate" object="${customer}" z="X9mTtDmP2IQfd7cNu+LtudqR8zU="/>
+    </page:show>
+</div>

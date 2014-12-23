@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_draka_hardi_domain_PolicyCustomer" object="${policycustomer}" path="/policycustomers" z="jQje92QSsio1Msv3Jk+WUdGERu8=">
+        <field:display field="customerName" id="s_com_draka_hardi_domain_PolicyCustomer_customerName" object="${policycustomer}" z="HgUO04LJnWBFdtejjuTMw6A+QrQ="/>
+        <field:display field="policyTypeCode" id="s_com_draka_hardi_domain_PolicyCustomer_policyTypeCode" object="${policycustomer}" z="xNIFzMv+hlaIcSwD8FYJyu0vhZo="/>
+        <field:display date="true" dateTimePattern="${policyCustomer_startdate_date_format}" field="startDate" id="s_com_draka_hardi_domain_PolicyCustomer_startDate" object="${policycustomer}" z="3yHRe0zkFR5puMsItNfl7tOojoM="/>
+        <field:display date="true" dateTimePattern="${policyCustomer_enddate_date_format}" field="endDate" id="s_com_draka_hardi_domain_PolicyCustomer_endDate" object="${policycustomer}" z="yCbgXK25h1w/b7LqDfl1ZDWOtxM="/>
+        <field:display field="otherDescription" id="s_com_draka_hardi_domain_PolicyCustomer_otherDescription" object="${policycustomer}" z="Asf3j7IDTt9nqdTWl2IQq5NATcI="/>
+    </page:show>
+
+
+
+</div>

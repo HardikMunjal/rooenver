@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_draka_hardi_domain_PolicyTypeAud" items="${policytypeauds}" z="+fTJwSzg5125+Zrs7Lf+1Mh66aw=">
+        <table:table data="${policytypeauds}" delete="false" id="l_com_draka_hardi_domain_PolicyTypeAud" path="/policytypeauds" update="false" z="dolH3CjumVg/i7G5sD32rM6hm9Y=">
+            <table:column id="c_com_draka_hardi_domain_PolicyTypeAud_rev" property="rev" z="JYsDq1K/vUKDURRbRIaTyyh6C+k="/>
+            <table:column id="c_com_draka_hardi_domain_PolicyTypeAud_revtype" property="revtype" z="UTrQjHnlvzQdkyeJHkhFUCjssBo="/>
+            <table:column id="c_com_draka_hardi_domain_PolicyTypeAud_policyDescription" property="policyDescription" z="hAF0de0w59DHh5eqKae08jnNYCs="/>
+            <table:column id="c_com_draka_hardi_domain_PolicyTypeAud_policyTypeCode" property="policyTypeCode" z="Fy11hhDvBgzYL3eF6H80gShy73A="/>
+        </table:table>
+    </page:list>
+</div>

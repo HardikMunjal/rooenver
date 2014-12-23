@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_draka_hardi_domain_Customer" items="${customers}" z="4vwHMr3wV/sBaFbcTOqzgkyEJ6o=">
+        <table:table data="${customers}" id="l_com_draka_hardi_domain_Customer" path="/customers" typeIdFieldName="cId" z="ShkaDqjZVbsf1RC8/C0XkDqrnwE=">
+            <table:column id="c_com_draka_hardi_domain_Customer_customerName" property="customerName" z="PAXUoiNPV50kLsA8muLGSmdhWk0="/>
+            <table:column id="c_com_draka_hardi_domain_Customer_customerAddress" property="customerAddress" z="yqDQ4tIPBoUUgPXc1L7yUn36dpI="/>
+            <table:column date="true" dateTimePattern="${customer_customerbirthdate_date_format}" id="c_com_draka_hardi_domain_Customer_customerBirthDate" property="customerBirthDate" z="6upLfu6q7W4I7UDcYKF4JPkAhWY="/>
+        </table:table>
+    </page:list>
+</div>

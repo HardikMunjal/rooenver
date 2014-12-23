@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_draka_hardi_domain_CustomerAud" items="${customerauds}" z="DK9Nd6KyVdnMKyutjImyoIlo4hQ=">
+        <table:table data="${customerauds}" delete="false" id="l_com_draka_hardi_domain_CustomerAud" path="/customerauds" update="false" z="rdOGvaPowwASBRSgSg7wIvizEso=">
+            <table:column id="c_com_draka_hardi_domain_CustomerAud_rev" property="rev" z="fWURFdSOsgccp6kd0H6CFSWEg0o="/>
+            <table:column id="c_com_draka_hardi_domain_CustomerAud_revtype" property="revtype" z="VC1obDj+uIFk90iHAdTzlv4569I="/>
+            <table:column id="c_com_draka_hardi_domain_CustomerAud_customerAddress" property="customerAddress" z="2Ri7BCVSAsMGfi3TSDIM5sILkxY="/>
+            <table:column date="true" dateTimePattern="${customerAud_customerbirthdate_date_format}" id="c_com_draka_hardi_domain_CustomerAud_customerBirthDate" property="customerBirthDate" z="yA+lK2HWvcknHlDU+TzEyyEJuus="/>
+            <table:column id="c_com_draka_hardi_domain_CustomerAud_customerName" property="customerName" z="OE0idDdmys3aJmrecOj+QzsvplQ="/>
+        </table:table>
+    </page:list>
+</div>

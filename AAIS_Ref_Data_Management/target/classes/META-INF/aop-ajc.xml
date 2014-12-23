@@ -1,0 +1,66 @@
+<aspectj>
+<aspects>
+<aspect name="com.draka.hardi.web.PolicyTypeController_Roo_Controller"/>
+<aspect name="com.draka.hardi.domain.Customer_Roo_DbManaged"/>
+<aspect name="com.draka.hardi.domain.PolicyType_Roo_Jpa_Entity"/>
+<aspect name="com.draka.hardi.domain.PolicyClaim_Roo_ToString"/>
+<aspect name="com.draka.hardi.domain.PolicyTypeAud_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.draka.hardi.domain.CustomerAud_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.draka.hardi.domain.PolicyType_Roo_Configurable"/>
+<aspect name="com.draka.hardi.domain.PolicyCustomer_Roo_Jpa_Entity"/>
+<aspect name="com.draka.hardi.domain.CustomerAudPK_Roo_Serializable"/>
+<aspect name="com.draka.hardi.domain.PolicyTypeAud_Roo_Jpa_Entity"/>
+<aspect name="com.draka.hardi.domain.PolicyCustomerAudPK_Roo_Configurable"/>
+<aspect name="com.draka.hardi.domain.Revisions_Roo_Configurable"/>
+<aspect name="com.draka.hardi.domain.PolicyType_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.draka.hardi.domain.Customer_Roo_Configurable"/>
+<aspect name="com.draka.hardi.domain.PolicyClaim_Roo_Configurable"/>
+<aspect name="com.draka.hardi.domain.Customer_Roo_ToString"/>
+<aspect name="com.draka.hardi.domain.CustomerAudPK_Roo_Configurable"/>
+<aspect name="com.draka.hardi.domain.PolicyCustomerAud_Roo_DbManaged"/>
+<aspect name="com.draka.hardi.domain.Revisions_Roo_ToString"/>
+<aspect name="com.draka.hardi.domain.PolicyCustomerAudPK_Roo_Serializable"/>
+<aspect name="com.draka.hardi.domain.PolicyClaim_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.draka.hardi.domain.PolicyCustomerAud_Roo_Jpa_Entity"/>
+<aspect name="com.draka.hardi.domain.PolicyCustomerAudPK_Roo_Identifier"/>
+<aspect name="com.draka.hardi.web.CustomerController_Roo_Controller"/>
+<aspect name="com.draka.hardi.web.PolicyClaimController_Roo_Controller"/>
+<aspect name="com.draka.hardi.domain.PolicyCustomerAud_Roo_ToString"/>
+<aspect name="com.draka.hardi.web.RevisionsController_Roo_Controller"/>
+<aspect name="com.draka.hardi.domain.PolicyTypeAudPK_Roo_Configurable"/>
+<aspect name="com.draka.hardi.web.ApplicationConversionServiceFactoryBean_Roo_ConversionService"/>
+<aspect name="com.draka.hardi.domain.PolicyClaim_Roo_DbManaged"/>
+<aspect name="com.draka.hardi.domain.PolicyClaim_Roo_Jpa_Entity"/>
+<aspect name="com.draka.hardi.domain.Revisions_Roo_Jpa_Entity"/>
+<aspect name="com.draka.hardi.domain.PolicyCustomerAud_Roo_Configurable"/>
+<aspect name="com.draka.hardi.domain.PolicyType_Roo_DbManaged"/>
+<aspect name="com.draka.hardi.domain.PolicyCustomer_Roo_ToString"/>
+<aspect name="com.draka.hardi.web.CustomerAudController_Roo_Controller"/>
+<aspect name="com.draka.hardi.domain.PolicyTypeAudPK_Roo_Json"/>
+<aspect name="com.draka.hardi.domain.PolicyTypeAud_Roo_ToString"/>
+<aspect name="com.draka.hardi.domain.CustomerAud_Roo_DbManaged"/>
+<aspect name="com.draka.hardi.domain.CustomerAud_Roo_Jpa_Entity"/>
+<aspect name="com.draka.hardi.domain.PolicyTypeAud_Roo_DbManaged"/>
+<aspect name="com.draka.hardi.domain.PolicyTypeAud_Roo_Configurable"/>
+<aspect name="com.draka.hardi.web.PolicyTypeAudController_Roo_Controller"/>
+<aspect name="com.draka.hardi.web.PolicyCustomerAudController_Roo_Controller"/>
+<aspect name="com.draka.hardi.domain.Revisions_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.draka.hardi.domain.PolicyTypeAudPK_Roo_Serializable"/>
+<aspect name="com.draka.hardi.domain.CustomerAud_Roo_ToString"/>
+<aspect name="com.draka.hardi.domain.CustomerAud_Roo_Configurable"/>
+<aspect name="com.draka.hardi.domain.CustomerAudPK_Roo_Identifier"/>
+<aspect name="com.draka.hardi.web.PolicyCustomerController_Roo_Controller"/>
+<aspect name="com.draka.hardi.domain.PolicyCustomerAud_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.draka.hardi.domain.PolicyCustomer_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.draka.hardi.domain.Revisions_Roo_DbManaged"/>
+<aspect name="com.draka.hardi.domain.CustomerAudPK_Roo_Json"/>
+<aspect name="com.draka.hardi.domain.PolicyTypeAudPK_Roo_Identifier"/>
+<aspect name="com.draka.hardi.domain.PolicyCustomerAudPK_Roo_Json"/>
+<aspect name="com.draka.hardi.domain.Customer_Roo_Jpa_Entity"/>
+<aspect name="com.draka.hardi.domain.PolicyCustomer_Roo_Configurable"/>
+<aspect name="com.draka.hardi.domain.Customer_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.draka.hardi.domain.PolicyType_Roo_ToString"/>
+<aspect name="com.draka.hardi.domain.PolicyCustomer_Roo_DbManaged"/>
+</aspects>
+</aspectj>
+

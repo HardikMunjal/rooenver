@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_draka_hardi_domain_PolicyCustomer" items="${policycustomers}" z="d9TwhbAVANmeytGaBc8kggxqnq0=">
+        <table:table data="${policycustomers}" id="l_com_draka_hardi_domain_PolicyCustomer" path="/policycustomers" typeIdFieldName="pId" z="qK9dWe5FDFz4R56WIJogYsru7vg=">
+            <table:column id="c_com_draka_hardi_domain_PolicyCustomer_customerName" property="customerName" z="PvWauhWINLl1KNbEzQWPSColMsk="/>
+            <table:column id="c_com_draka_hardi_domain_PolicyCustomer_policyTypeCode" property="policyTypeCode" z="/YkwAUsL0YaTa+Q04k3wrT/SOks="/>
+            <table:column date="true" dateTimePattern="${policyCustomer_startdate_date_format}" id="c_com_draka_hardi_domain_PolicyCustomer_startDate" property="startDate" z="jXqCb6J2O4ZW/aIL6OMTXEqfLFE="/>
+            <table:column date="true" dateTimePattern="${policyCustomer_enddate_date_format}" id="c_com_draka_hardi_domain_PolicyCustomer_endDate" property="endDate" z="myc2ZoMQj4OjQBRZtP++QSvwKBg="/>
+            <table:column id="c_com_draka_hardi_domain_PolicyCustomer_otherDescription" property="otherDescription" z="OpkImKRKa+rvQIS3vmji3CG7C98="/>
+        </table:table>
+    </page:list>
+</div>

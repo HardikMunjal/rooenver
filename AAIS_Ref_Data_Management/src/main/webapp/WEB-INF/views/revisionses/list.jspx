@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_draka_hardi_domain_Revisions" items="${revisionses}" z="oilGQA7TFl+OFEubqY6x07NumNQ=">
+        <table:table data="${revisionses}" delete="false" id="l_com_draka_hardi_domain_Revisions" path="/revisionses" update="false" z="Uqz1vUGj0ZsY5mRnUdTpvB0MHNE=">
+            <table:column id="c_com_draka_hardi_domain_Revisions_timestamp" property="timestamp" z="pFo5e5AEsxNobcMrukYx2mGQ1+U="/>
+            <table:column id="c_com_draka_hardi_domain_Revisions_username" property="username" z="tpLephuLd7RTdutwklFSO96Mo3M="/>
+        </table:table>
+    </page:list>
+</div>

@@ -1,0 +1,19 @@
+// Spring Roo 1.3.1.RC1 [rev 4877cfb] log opened at 2014-12-23 13:20:41
+project --topLevelPackage com.draka.hardi --projectName AAIS_Ref_Data_Management --java 7 --packaging JAR
+// Spring Roo 1.3.1.RC1 [rev 4877cfb] log closed at 2014-12-23 13:20:57
+// Spring Roo 1.3.1.RC1 [rev 4877cfb] log opened at 2014-12-23 13:22:22
+persistence setup --database MYSQL --provider HIBERNATE
+osgi start --url file:///F:/mysql-connector-java-5.1.23-bin.jar 
+database reverse engineer --schema order --package ~.domain
+web mvc setup
+web mvc all --package ~.web
+database reverse engineer --schema order --package ~.domain
+web mvc scaffold --class ~.web.CustomerAudController --backingType ~.domain.CustomerAud --disallowedOperations update,delete,create
+web mvc scaffold --class ~.web.PolicyTypeAudController --backingType ~.domain.PolicyTypeAud --disallowedOperations update,delete,create
+database reverse engineer --schema order --package ~.domain
+web mvc scaffold --class ~.web.PolicyTypeAudController --backingType ~.domain.PolicyTypeAud --disallowedOperations update,delete,create
+web mvc scaffold --class ~.web.PolicyCustomerAudController --backingType ~.domain.PolicyCustomerAud --disallowedOperations update,delete,create
+web mvc scaffold --class ~.web.RevisionsController --backingType ~.domain.Revisions --disallowedOperations update,delete,create
+quit
+// Spring Roo 1.3.1.RC1 [rev 4877cfb] log closed at 2014-12-23 17:00:16
+// Spring Roo 1.3.1.RC1 [rev 4877cfb] log opened at 2014-12-23 17:01:06

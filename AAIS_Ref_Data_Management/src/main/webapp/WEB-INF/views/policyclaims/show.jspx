@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_draka_hardi_domain_PolicyClaim" object="${policyclaim}" path="/policyclaims" z="MOnVp2sU2Z6IBpeYPKqpGBdEndY=">
+        <field:display field="policyId" id="s_com_draka_hardi_domain_PolicyClaim_policyId" object="${policyclaim}" z="3YLFCbmVEM+swnf4w/SyhkQL13U="/>
+        <field:display field="claimDescription" id="s_com_draka_hardi_domain_PolicyClaim_claimDescription" object="${policyclaim}" z="NFXPqAGGZq91iOD500tOgUKMCy8="/>
+    </page:show>
+</div>
